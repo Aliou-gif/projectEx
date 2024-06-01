@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style2.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<title>Excision</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+			  <li><a href="#Forum"  class='bx bx-chat'>Forum</a></li>
+			  <li><a href="#inscrire" class='bx bx-user'>S'inscrire</a></li>
+			  <li><a href="#contact" class='bx bxs-contact'>Nous contacter</a></li>
+			</ul>
+		  </nav>
+
+	</header>
+	<div class="sidebar">
+		<div class="top">
+			<div class="logo">
+				<i class="bx bxl-codepen"></i>
+				<span> No Excision</span>
+			</div>
+			<i class="bx bx-menu" id="btn"></i>
+		</div>
+		<div class="user">
+            <img src="images/ALIOU.jpg" alt="me" class="user-img">
+			<div>
+				<p class="bold">Admin</p>
+			</div>
+		</div>
+		<ul>
+			<li>
+				<a href="#">
+					<i class="bx bxs-grid-alt"></i>
+					<span class="nav-item">Tableau de bord</span>
+				</a>
+				<span class="tooltip">Dashboard</span>
+			</li>
+			<li>
+				<a href="#">
+					<i class="bx bxs-shopping-bag"></i>
+					<span class="nav-item">Historiques</span>
+				</a>
+				<span class="tooltip">Product</span>
+			</li>
+			<li>
+				<a href="#">
+					<i class="bx bx-list-check"></i>
+					<span class="nav-item">Categories</span>
+				</a>
+				<span class="tooltip">Categories</span>
+			</li>
+			<li>
+				<a href="#">
+					<i class="bx bxs-food-menu"></i>
+					<span class="nav-item">Archives</span>
+				</a>
+				<span class="tooltip">Others</span>
+			</li>
+			<li>
+				<a href="#">
+					<i class="bx bx-body"></i>
+					<span class="nav-item">Suspect</span>
+				</a>
+				<span class="tooltip">Customers</span>
+			</li>
+				<li>
+					<a href="#">
+						<i class="bx bx-location-plus"></i>
+						<span class="nav-item">Code penal</span>
+					</a>
+					<span class="tooltip">Shopping</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bx-cog"></i>
+						<span class="nav-item">Parametre</span>
+					</a>
+					<span class="tooltip">Sittings</span>
+				</li>
+				<li>
+					<a href="#">
+						<i class="bx bx-log-out"></i>
+						<span class="nav-item">Layouts</span>
+					</a>
+					<span class="tooltip">Layouts</span>
+				</li>
+		</ul>
+	</div>
+	<div class="main-content">
+		<div class="container">
+
+
+			<div id="imagePrincipale">
+			  </div>
+			
+		</div>
+
+	</div>
+	<footer> 
+		<div id="copyrightEtIcons">
+			<div id="copyright">
+				<span>© Aliou M. Laouali; 2024</span>
+			</div>
+				<div id="icons">
+					<a href="http://www.twitter.fr"><i class='bx-fw bx bxl-twitter'></i></a>
+					<a href="http://www.facebook.fr"><i class='bx-fw bx bxl-facebook-square'></i></a>
+					<a href="http://www.instagram.fr"><i class='bx bxl-instagram' ></i></a> 
+					<a href="http://www.twitter.fr"><i class='bx bxl-meta'></i></a>
+				</div>
+					
+			</div>
+		</div>
+
+	</footer>
+</body>
+<script>
+	let btn = document.querySelector('#btn');
+	let sidebar = document.querySelector('.sidebar');
+
+	btn.onclick = function()
+	{
+		sidebar.classList.toggle('active');
+	};
+</script>
+</html>
