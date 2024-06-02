@@ -6,7 +6,20 @@ html {
   body {
     padding: 0;
     margin: 0;
+    height: 80%;
   }
+
+#carouselExampleIndicators
+{
+    width: 68%;
+    margin: auto;
+     height: 20%;
+}
+.carousel-item img
+{
+    width: 68%;
+    height: 30%;
+}
 
 
 /* **************** Navigataire ************* */
@@ -182,17 +195,9 @@ nav {
 {
     display: none;
 }
-.main-content
-{
-    position: relative;
-    background-color: #eee;
-    min-height: 100vh;
-    top: 0;
-    left: 80px;
-    transition: all 0.5s ease;
-    width: calc(100% - 80px);
-    padding: 1rem;
-}
+/**
+
+
 
 /***Footer***/
 
@@ -201,21 +206,13 @@ nav {
     color: red;
 }
 
-
-
-#imagePrincipale {
-    padding: 50px;
-    background: url(images/10.jpg) no-repeat fixed 50% 50%;
-    background-size: cover;
-    height: 700px;
-    position: relative;
-  }
-
   footer {
-    background-color: #524A3A;
-    color: #FFFAE1;
+    background-color: #12171e;
+
     padding: 20px 0 10px 0;
     text-align: center;
+    width: 84%;
+    height: 3%;
   }
 
   #copyrightEtIcons {
@@ -224,12 +221,12 @@ nav {
     padding: 0 10%;
   }
   #copyright {
-    width: 50%;
+    width: 80%;
     text-align: left;
     color: #FFFAE1;
   }
   #icons {
-    width: 50%;
+    width: 30%;
     text-align: right;
   }
   #icons a {
@@ -242,3 +239,15 @@ nav {
     transform: scale(1.5);
     transition: 0.1s;
   }
+
+  @media screen and (max-width:1500px){
+    footer
+    {
+        width: 68%;
+        text-align: center;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    
+  }
+ 
