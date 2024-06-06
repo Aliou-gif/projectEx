@@ -250,4 +250,10 @@ nav {
     }
     
   }
+marquee
+{
+    background: green;
+    behavior: slide;
+}
+    
  
